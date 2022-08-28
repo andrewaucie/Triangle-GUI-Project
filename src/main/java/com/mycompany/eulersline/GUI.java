@@ -1,16 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.eulersline;
 
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author andre
- */
 public class GUI extends javax.swing.JFrame {
     public static double[] sideLength(double[] P, double[] Q, double[] R) {
         double PQ=Math.sqrt(Math.pow((P[0]-Q[0]),2)+Math.pow((P[1]-Q[1]),2));
